@@ -1,0 +1,74 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: #1D202B;
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+}
+
+.contenedor {
+	width: 90%;
+	max-width: 1200px;
+	margin: auto;
+	padding: 40px 0;
+
+	display: flex;
+	gap:20px;
+
+
+	
+}
+
+.titulo {
+	font-size: 24px;
+	padding: 20px 0;
+}
+
+.contenedor-conciertos {
+	width: 50%;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 100px;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 100px;
+	
+	
+	
+}
+
+.card {
+	border-radius: 10px;
+	min-height: 200px;
+	font-weight: bold;
+	padding: 70px;
+	position: relative;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center center;
+    width: 33.33%;
+	
+}
+
+.card .textos {
+	height: 100%;
+
+	
+	
+}
+
+.banner {
+	border-radius: 10px;
+	text-align: center;
+	padding: 20px;
+	background-size: cover;
+	background-position: center center;
+    width: 50%;
+
+}
+
+
